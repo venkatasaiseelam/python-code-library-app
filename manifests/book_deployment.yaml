@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: book-container
-          image: devops1117/pythonlib:book_v16
+          image: devops1117/pythonlib:book_v17
           ports:
             - containerPort: 5002
