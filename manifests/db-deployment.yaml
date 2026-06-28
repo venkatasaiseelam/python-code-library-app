@@ -20,19 +20,4 @@ spec:
           image: devops1117/pythonlib:db_v14
           ports:
             - containerPort: 3306
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: db-service
-spec:
-  ClusterIP: None
-  selector:
-    app: db
-  ports:
-    - port: 3306
-      targetPort: 3306
-  template:
-    spec:
-      containers:
-        - image: devops1117/pythonlib:db_v14
+
