@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: frontend-container
-          image: devops1117/pythonlib:frontend_v14
+          image: devops1117/pythonlib:frontend_v15
           ports:
             - containerPort: 5000

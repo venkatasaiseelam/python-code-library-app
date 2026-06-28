@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: auth-container
-          image: devops1117/pythonlib:auth_v14
+          image: devops1117/pythonlib:auth_v15
           ports:
             - containerPort: 5001

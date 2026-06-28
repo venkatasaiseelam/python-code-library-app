@@ -17,7 +17,6 @@ spec:
     spec:
       containers:
         - name: db-container
-          image: devops1117/pythonlib:db_v14
+          image: devops1117/pythonlib:db_v15
           ports:
             - containerPort: 3306
-
